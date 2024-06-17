@@ -163,10 +163,6 @@ nav ul a{
     letter-spacing: 1px;
 }
 
-.call{
-    justify-content: space-between;
-}
-
 @media(max-width:400px){
     .bottom{
        display: inline-block;
