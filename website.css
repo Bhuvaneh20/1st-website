@@ -176,3 +176,7 @@ nav ul a{
         text-align: center;
     }
 }
+@media(max-width:400px){
+    .para h1{
+        display: inline-flex;
+    }
