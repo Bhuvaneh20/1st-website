@@ -1,3 +1,7 @@
+.over{
+    overflow: hidden;
+}
+
 .top{
     background-color: lightgray;
 }
@@ -31,9 +35,10 @@ nav ul a{
     height: 50%;
 }
 
-.para h1{
+.para p{
     text-align: center;
     line-height: 2px;
+    font-size: 30px;
 
 }
 
@@ -131,6 +136,7 @@ nav ul a{
 .feature.perfor{
     float: right;
     margin-right: 30%;
+    text-align: justify;
 }
 
 .feature.handling{
@@ -176,7 +182,3 @@ nav ul a{
         text-align: center;
     }
 }
-@media(max-width:400px){
-    .para h1{
-        display: inline-flex;
-    }
